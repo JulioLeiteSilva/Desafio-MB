@@ -1,402 +1,402 @@
 [
     {
         "id": 1,
-        "seller": "Produtora ABC",
+        "seller": "Eventos XPTO",
         "eventName": "Evento Aleat\u00f3rio 1",
-        "dateTime": "17/8/2025 \u00e0s 15:00",
+        "dateTime": "7/8/2025 17:00",
         "imageUrl": "https://picsum.photos/50/50?random=1",
-        "location": "Belo Horizonte",
+        "location": "Rio de Janeiro",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 1. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 87.8
+        "value": 306.91
     },
     {
         "id": 2,
-        "seller": "Loja XYZ",
+        "seller": "Produtora ABC",
         "eventName": "Evento Aleat\u00f3rio 2",
-        "dateTime": "1/5/2025 \u00e0s 12:00",
+        "dateTime": "5/5/2025 22:00",
         "imageUrl": "https://picsum.photos/50/50?random=2",
-        "location": "Rio de Janeiro",
+        "location": "Curitiba",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 2. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 270.58
+        "value": 417.46
     },
     {
         "id": 3,
-        "seller": "Loja XYZ",
+        "seller": "Casa de Show Elite",
         "eventName": "Evento Aleat\u00f3rio 3",
-        "dateTime": "12/6/2025 \u00e0s 14:00",
+        "dateTime": "19/10/2025 10:00",
         "imageUrl": "https://picsum.photos/50/50?random=3",
-        "location": "Belo Horizonte",
+        "location": "Rio de Janeiro",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 3. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 367.51
+        "value": 350.5
     },
     {
         "id": 4,
-        "seller": "Loja XYZ",
+        "seller": "Organiza\u00e7\u00e3o 123",
         "eventName": "Evento Aleat\u00f3rio 4",
-        "dateTime": "16/12/2025 \u00e0s 14:00",
+        "dateTime": "18/12/2025 10:00",
         "imageUrl": "https://picsum.photos/50/50?random=4",
         "location": "S\u00e3o Paulo",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 4. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 384.4
+        "value": 338.72
     },
     {
         "id": 5,
-        "seller": "Eventos XPTO",
+        "seller": "Loja XYZ",
         "eventName": "Evento Aleat\u00f3rio 5",
-        "dateTime": "19/6/2025 \u00e0s 12:00",
+        "dateTime": "27/8/2025 13:00",
         "imageUrl": "https://picsum.photos/50/50?random=5",
-        "location": "Curitiba",
+        "location": "Rio de Janeiro",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 5. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 449.44
+        "value": 105.05
     },
     {
         "id": 6,
-        "seller": "Produtora ABC",
+        "seller": "Organiza\u00e7\u00e3o 123",
         "eventName": "Evento Aleat\u00f3rio 6",
-        "dateTime": "19/5/2025 \u00e0s 13:00",
+        "dateTime": "7/6/2025 12:00",
         "imageUrl": "https://picsum.photos/50/50?random=6",
-        "location": "Belo Horizonte",
+        "location": "Rio de Janeiro",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 6. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 408.86
+        "value": 422.54
     },
     {
         "id": 7,
         "seller": "Eventos XPTO",
         "eventName": "Evento Aleat\u00f3rio 7",
-        "dateTime": "11/3/2025 \u00e0s 17:00",
+        "dateTime": "1/5/2025 13:00",
         "imageUrl": "https://picsum.photos/50/50?random=7",
-        "location": "Porto Alegre",
+        "location": "Bras\u00edlia",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 7. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 341.06
+        "value": 396.81
     },
     {
         "id": 8,
-        "seller": "Loja XYZ",
+        "seller": "Eventos XPTO",
         "eventName": "Evento Aleat\u00f3rio 8",
-        "dateTime": "9/12/2025 \u00e0s 14:00",
+        "dateTime": "16/9/2025 20:00",
         "imageUrl": "https://picsum.photos/50/50?random=8",
-        "location": "Rio de Janeiro",
+        "location": "Bras\u00edlia",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 8. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 253.29
+        "value": 72.73
     },
     {
         "id": 9,
-        "seller": "Loja XYZ",
+        "seller": "Eventos XPTO",
         "eventName": "Evento Aleat\u00f3rio 9",
-        "dateTime": "4/1/2025 \u00e0s 18:00",
+        "dateTime": "1/8/2025 12:00",
         "imageUrl": "https://picsum.photos/50/50?random=9",
-        "location": "Curitiba",
+        "location": "Bras\u00edlia",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 9. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 80.24
+        "value": 60.81
     },
     {
         "id": 10,
-        "seller": "Produtora ABC",
+        "seller": "Eventos XPTO",
         "eventName": "Evento Aleat\u00f3rio 10",
-        "dateTime": "28/10/2025 \u00e0s 21:00",
+        "dateTime": "17/2/2025 12:00",
         "imageUrl": "https://picsum.photos/50/50?random=10",
-        "location": "Bras\u00edlia",
+        "location": "Porto Alegre",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 10. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 74.39
+        "value": 333.66
     },
     {
         "id": 11,
-        "seller": "Produtora ABC",
+        "seller": "Eventos XPTO",
         "eventName": "Evento Aleat\u00f3rio 11",
-        "dateTime": "16/11/2025 \u00e0s 15:00",
+        "dateTime": "16/6/2025 10:00",
         "imageUrl": "https://picsum.photos/50/50?random=11",
-        "location": "Rio de Janeiro",
+        "location": "Bras\u00edlia",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 11. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 80.94
+        "value": 322.52
     },
     {
         "id": 12,
         "seller": "Eventos XPTO",
         "eventName": "Evento Aleat\u00f3rio 12",
-        "dateTime": "19/8/2025 \u00e0s 19:00",
+        "dateTime": "3/2/2025 10:00",
         "imageUrl": "https://picsum.photos/50/50?random=12",
         "location": "S\u00e3o Paulo",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 12. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 286.72
+        "value": 123.61
     },
     {
         "id": 13,
-        "seller": "Eventos XPTO",
+        "seller": "Casa de Show Elite",
         "eventName": "Evento Aleat\u00f3rio 13",
-        "dateTime": "23/2/2025 \u00e0s 19:00",
+        "dateTime": "20/10/2025 18:00",
         "imageUrl": "https://picsum.photos/50/50?random=13",
-        "location": "Bras\u00edlia",
+        "location": "S\u00e3o Paulo",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 13. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 322.03
+        "value": 120.16
     },
     {
         "id": 14,
         "seller": "Casa de Show Elite",
         "eventName": "Evento Aleat\u00f3rio 14",
-        "dateTime": "16/5/2025 \u00e0s 19:00",
+        "dateTime": "1/2/2025 12:00",
         "imageUrl": "https://picsum.photos/50/50?random=14",
         "location": "Porto Alegre",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 14. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 119.48
+        "value": 481.46
     },
     {
         "id": 15,
         "seller": "Organiza\u00e7\u00e3o 123",
         "eventName": "Evento Aleat\u00f3rio 15",
-        "dateTime": "13/5/2025 \u00e0s 19:00",
+        "dateTime": "14/5/2025 18:00",
         "imageUrl": "https://picsum.photos/50/50?random=15",
-        "location": "Bras\u00edlia",
+        "location": "S\u00e3o Paulo",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 15. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 77.83
+        "value": 343.74
     },
     {
         "id": 16,
-        "seller": "Eventos XPTO",
+        "seller": "Organiza\u00e7\u00e3o 123",
         "eventName": "Evento Aleat\u00f3rio 16",
-        "dateTime": "15/3/2025 \u00e0s 21:00",
+        "dateTime": "10/8/2025 20:00",
         "imageUrl": "https://picsum.photos/50/50?random=16",
-        "location": "Bras\u00edlia",
+        "location": "Rio de Janeiro",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 16. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 143.95
+        "value": 441.32
     },
     {
         "id": 17,
-        "seller": "Organiza\u00e7\u00e3o 123",
+        "seller": "Casa de Show Elite",
         "eventName": "Evento Aleat\u00f3rio 17",
-        "dateTime": "14/3/2025 \u00e0s 21:00",
+        "dateTime": "4/7/2025 17:00",
         "imageUrl": "https://picsum.photos/50/50?random=17",
-        "location": "Belo Horizonte",
+        "location": "Porto Alegre",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 17. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 198.68
+        "value": 101.13
     },
     {
         "id": 18,
-        "seller": "Eventos XPTO",
+        "seller": "Loja XYZ",
         "eventName": "Evento Aleat\u00f3rio 18",
-        "dateTime": "4/9/2025 \u00e0s 20:00",
+        "dateTime": "15/8/2025 20:00",
         "imageUrl": "https://picsum.photos/50/50?random=18",
-        "location": "Belo Horizonte",
+        "location": "Rio de Janeiro",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 18. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 227.74
+        "value": 362.87
     },
     {
         "id": 19,
-        "seller": "Eventos XPTO",
+        "seller": "Organiza\u00e7\u00e3o 123",
         "eventName": "Evento Aleat\u00f3rio 19",
-        "dateTime": "1/3/2025 \u00e0s 17:00",
+        "dateTime": "13/11/2025 19:00",
         "imageUrl": "https://picsum.photos/50/50?random=19",
-        "location": "Porto Alegre",
+        "location": "S\u00e3o Paulo",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 19. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 266.96
+        "value": 437.74
     },
     {
         "id": 20,
-        "seller": "Casa de Show Elite",
+        "seller": "Produtora ABC",
         "eventName": "Evento Aleat\u00f3rio 20",
-        "dateTime": "26/10/2025 \u00e0s 15:00",
+        "dateTime": "23/9/2025 10:00",
         "imageUrl": "https://picsum.photos/50/50?random=20",
-        "location": "Porto Alegre",
+        "location": "Curitiba",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 20. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 81.75
+        "value": 353.75
     },
     {
         "id": 21,
         "seller": "Casa de Show Elite",
         "eventName": "Evento Aleat\u00f3rio 21",
-        "dateTime": "15/11/2025 \u00e0s 15:00",
+        "dateTime": "15/4/2025 16:00",
         "imageUrl": "https://picsum.photos/50/50?random=21",
-        "location": "Bras\u00edlia",
+        "location": "Rio de Janeiro",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 21. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 486.99
+        "value": 82.42
     },
     {
         "id": 22,
         "seller": "Casa de Show Elite",
         "eventName": "Evento Aleat\u00f3rio 22",
-        "dateTime": "6/9/2025 \u00e0s 15:00",
+        "dateTime": "22/11/2025 20:00",
         "imageUrl": "https://picsum.photos/50/50?random=22",
-        "location": "Curitiba",
+        "location": "Rio de Janeiro",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 22. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 313.72
+        "value": 115.32
     },
     {
         "id": 23,
-        "seller": "Organiza\u00e7\u00e3o 123",
+        "seller": "Eventos XPTO",
         "eventName": "Evento Aleat\u00f3rio 23",
-        "dateTime": "23/8/2025 \u00e0s 22:00",
+        "dateTime": "28/10/2025 14:00",
         "imageUrl": "https://picsum.photos/50/50?random=23",
-        "location": "Rio de Janeiro",
+        "location": "S\u00e3o Paulo",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 23. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 172.89
+        "value": 190.03
     },
     {
         "id": 24,
-        "seller": "Casa de Show Elite",
+        "seller": "Loja XYZ",
         "eventName": "Evento Aleat\u00f3rio 24",
-        "dateTime": "22/11/2025 \u00e0s 17:00",
+        "dateTime": "17/7/2025 15:00",
         "imageUrl": "https://picsum.photos/50/50?random=24",
-        "location": "Bras\u00edlia",
+        "location": "Rio de Janeiro",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 24. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 356.34
+        "value": 69.64
     },
     {
         "id": 25,
         "seller": "Produtora ABC",
         "eventName": "Evento Aleat\u00f3rio 25",
-        "dateTime": "9/7/2025 \u00e0s 20:00",
+        "dateTime": "16/9/2025 19:00",
         "imageUrl": "https://picsum.photos/50/50?random=25",
-        "location": "Bras\u00edlia",
+        "location": "Belo Horizonte",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 25. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 68.28
+        "value": 268.87
     },
     {
         "id": 26,
-        "seller": "Eventos XPTO",
+        "seller": "Produtora ABC",
         "eventName": "Evento Aleat\u00f3rio 26",
-        "dateTime": "1/4/2025 \u00e0s 10:00",
+        "dateTime": "18/7/2025 11:00",
         "imageUrl": "https://picsum.photos/50/50?random=26",
-        "location": "Belo Horizonte",
+        "location": "S\u00e3o Paulo",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 26. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 120.61
+        "value": 411.08
     },
     {
         "id": 27,
-        "seller": "Produtora ABC",
+        "seller": "Organiza\u00e7\u00e3o 123",
         "eventName": "Evento Aleat\u00f3rio 27",
-        "dateTime": "16/1/2025 \u00e0s 22:00",
+        "dateTime": "16/7/2025 10:00",
         "imageUrl": "https://picsum.photos/50/50?random=27",
-        "location": "Porto Alegre",
+        "location": "Curitiba",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 27. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 460.78
+        "value": 209.9
     },
     {
         "id": 28,
         "seller": "Produtora ABC",
         "eventName": "Evento Aleat\u00f3rio 28",
-        "dateTime": "27/5/2025 \u00e0s 16:00",
+        "dateTime": "23/11/2025 19:00",
         "imageUrl": "https://picsum.photos/50/50?random=28",
-        "location": "Belo Horizonte",
+        "location": "Curitiba",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 28. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 458.04
+        "value": 425.44
     },
     {
         "id": 29,
-        "seller": "Produtora ABC",
+        "seller": "Casa de Show Elite",
         "eventName": "Evento Aleat\u00f3rio 29",
-        "dateTime": "17/11/2025 \u00e0s 18:00",
+        "dateTime": "24/1/2025 12:00",
         "imageUrl": "https://picsum.photos/50/50?random=29",
-        "location": "Bras\u00edlia",
+        "location": "Belo Horizonte",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 29. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 317.17
+        "value": 450.66
     },
     {
         "id": 30,
-        "seller": "Loja XYZ",
+        "seller": "Eventos XPTO",
         "eventName": "Evento Aleat\u00f3rio 30",
-        "dateTime": "16/7/2025 \u00e0s 12:00",
+        "dateTime": "10/11/2025 20:00",
         "imageUrl": "https://picsum.photos/50/50?random=30",
-        "location": "Curitiba",
+        "location": "Rio de Janeiro",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 30. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 172.6
+        "value": 436.85
     },
     {
         "id": 31,
-        "seller": "Eventos XPTO",
+        "seller": "Casa de Show Elite",
         "eventName": "Evento Aleat\u00f3rio 31",
-        "dateTime": "1/2/2025 \u00e0s 15:00",
+        "dateTime": "1/3/2025 14:00",
         "imageUrl": "https://picsum.photos/50/50?random=31",
-        "location": "Curitiba",
+        "location": "S\u00e3o Paulo",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 31. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 353.66
+        "value": 439.99
     },
     {
         "id": 32,
-        "seller": "Eventos XPTO",
+        "seller": "Casa de Show Elite",
         "eventName": "Evento Aleat\u00f3rio 32",
-        "dateTime": "9/5/2025 \u00e0s 15:00",
+        "dateTime": "12/8/2025 10:00",
         "imageUrl": "https://picsum.photos/50/50?random=32",
         "location": "Rio de Janeiro",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 32. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 491.54
+        "value": 188.46
     },
     {
         "id": 33,
-        "seller": "Loja XYZ",
+        "seller": "Eventos XPTO",
         "eventName": "Evento Aleat\u00f3rio 33",
-        "dateTime": "3/1/2025 \u00e0s 15:00",
+        "dateTime": "20/5/2025 18:00",
         "imageUrl": "https://picsum.photos/50/50?random=33",
         "location": "Porto Alegre",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 33. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 282.25
+        "value": 388.98
     },
     {
         "id": 34,
-        "seller": "Produtora ABC",
+        "seller": "Eventos XPTO",
         "eventName": "Evento Aleat\u00f3rio 34",
-        "dateTime": "2/3/2025 \u00e0s 13:00",
+        "dateTime": "7/2/2025 10:00",
         "imageUrl": "https://picsum.photos/50/50?random=34",
-        "location": "Bras\u00edlia",
+        "location": "Rio de Janeiro",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 34. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 102.36
+        "value": 159.66
     },
     {
         "id": 35,
-        "seller": "Casa de Show Elite",
+        "seller": "Loja XYZ",
         "eventName": "Evento Aleat\u00f3rio 35",
-        "dateTime": "28/9/2025 \u00e0s 17:00",
+        "dateTime": "17/5/2025 22:00",
         "imageUrl": "https://picsum.photos/50/50?random=35",
-        "location": "Belo Horizonte",
+        "location": "Bras\u00edlia",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 35. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 330.64
+        "value": 270.83
     },
     {
         "id": 36,
-        "seller": "Organiza\u00e7\u00e3o 123",
+        "seller": "Casa de Show Elite",
         "eventName": "Evento Aleat\u00f3rio 36",
-        "dateTime": "1/3/2025 \u00e0s 18:00",
+        "dateTime": "3/11/2025 16:00",
         "imageUrl": "https://picsum.photos/50/50?random=36",
-        "location": "Belo Horizonte",
+        "location": "Curitiba",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 36. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 71.69
+        "value": 437.99
     },
     {
         "id": 37,
-        "seller": "Casa de Show Elite",
+        "seller": "Organiza\u00e7\u00e3o 123",
         "eventName": "Evento Aleat\u00f3rio 37",
-        "dateTime": "19/6/2025 \u00e0s 17:00",
+        "dateTime": "10/3/2025 15:00",
         "imageUrl": "https://picsum.photos/50/50?random=37",
-        "location": "Porto Alegre",
+        "location": "S\u00e3o Paulo",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 37. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 321.12
+        "value": 378.41
     },
     {
         "id": 38,
-        "seller": "Eventos XPTO",
+        "seller": "Loja XYZ",
         "eventName": "Evento Aleat\u00f3rio 38",
-        "dateTime": "5/2/2025 \u00e0s 20:00",
+        "dateTime": "12/11/2025 18:00",
         "imageUrl": "https://picsum.photos/50/50?random=38",
-        "location": "Porto Alegre",
+        "location": "Curitiba",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 38. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 178.21
+        "value": 351.54
     },
     {
         "id": 39,
-        "seller": "Produtora ABC",
+        "seller": "Organiza\u00e7\u00e3o 123",
         "eventName": "Evento Aleat\u00f3rio 39",
-        "dateTime": "13/3/2025 \u00e0s 14:00",
+        "dateTime": "4/11/2025 14:00",
         "imageUrl": "https://picsum.photos/50/50?random=39",
-        "location": "Curitiba",
+        "location": "Bras\u00edlia",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 39. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 102.75
+        "value": 352.5
     },
     {
         "id": 40,
-        "seller": "Organiza\u00e7\u00e3o 123",
+        "seller": "Casa de Show Elite",
         "eventName": "Evento Aleat\u00f3rio 40",
-        "dateTime": "10/1/2025 \u00e0s 13:00",
+        "dateTime": "8/5/2025 20:00",
         "imageUrl": "https://picsum.photos/50/50?random=40",
-        "location": "Rio de Janeiro",
+        "location": "Curitiba",
         "description": "Descri\u00e7\u00e3o detalhada do Evento Aleat\u00f3rio 40. Aproveite essa experi\u00eancia \u00fanica!",
-        "value": 79.12
+        "value": 88.74
     }
 ]

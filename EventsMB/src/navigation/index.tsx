@@ -25,7 +25,7 @@ export default function RootStack() {
         <Stack.Screen
           name="Modal"
           component={Modal}
-          options={{ presentation: 'modal', headerLeft: () => null }}
+          options={{ presentation: 'modal', headerShown: false }}
         />
       </Stack.Navigator>
     </NavigationContainer>

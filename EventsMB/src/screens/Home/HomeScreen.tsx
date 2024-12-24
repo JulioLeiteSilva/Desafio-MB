@@ -6,10 +6,12 @@ import EventCard from './components/EventCard';
 import EventList from './components/EventList';
 import { ScreenContent } from '../../components/ScreenContent';
 import mockEvents from '../../data/mockEvents.json';
-import { Event } from '../../types';
+import { Event, User } from '../../types';
+import { getUser } from '~/services/userService';
 
 export default function HomeScreen() {
   const [events, setEvents] = useState(mockEvents);
+  const [user, setUser] = useState<User>();
   const [filteredEvents, setFilteredEvents] = useState(events);
   const [searchText, setSearchText] = useState('');
 
@@ -23,18 +25,30 @@ export default function HomeScreen() {
   }, [searchText, events]);
 
   useEffect(() => {
-    const fetchEvents = async () => {
+    const fetchData = async () => {
+      // Simula carregamento de eventos
       await new Promise((resolve) => setTimeout(resolve, 1000));
+
+      // Ordenar os eventos por data
       const sortedEvents = [...mockEvents].sort((a, b) => {
-        const dateA = moment(a.dateTime, 'DD/MM/YYYY [às] HH:mm');
-        const dateB = moment(b.dateTime, 'DD/MM/YYYY [às] HH:mm');
+        const dateA = moment(a.dateTime, 'DD/MM/YYYY HH:mm');
+        const dateB = moment(b.dateTime, 'DD/MM/YYYY HH:mm');
         return dateA.diff(dateB); // Ordem crescente
       });
 
       setEvents(sortedEvents);
+
+      // Obter os dados do usuário
+      try {
+        const userData = await getUser();
+        setUser(userData);
+        console.log('Usuário carregado:', userData);
+      } catch (error) {
+        console.error('Erro ao carregar os dados do usuário');
+      }
     };
 
-    fetchEvents();
+    fetchData();
   }, []);
 
   const handleSearch = (text: string) => {
