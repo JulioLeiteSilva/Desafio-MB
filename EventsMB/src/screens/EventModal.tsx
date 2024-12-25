@@ -3,13 +3,16 @@ import { RouteProp, useRoute, useNavigation } from '@react-navigation/native';
 import moment from 'moment';
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, Image, Alert } from 'react-native';
-import 'moment/locale/pt-br'; // Certifique-se de importar o idioma correto
-import { addTicketToUser } from '~/services/userService'; // Serviço para adicionar ticket
+
+import 'moment/locale/pt-br';
+import { useUser } from '../context/UserContext';
+
 import { RootStackParamList } from '~/navigation';
 
-type ModalRouteProp = RouteProp<RootStackParamList, 'Modal'>;
+type ModalRouteProp = RouteProp<RootStackParamList, 'EventModal'>;
 
-export default function Modal() {
+export default function EventModal() {
+  const { addTicket } = useUser();
   const route = useRoute<ModalRouteProp>();
   const navigation = useNavigation();
   const { event } = route.params;
@@ -29,34 +32,28 @@ export default function Modal() {
   };
 
   const handleBuy = async () => {
-    try {
-      const ticket = {
-        id: new Date().getTime(), // Gerar ID único
-        eventName: event.eventName,
-        dateTime: event.dateTime,
-        location: event.location,
-        quantity: ticketCount,
-        value: event.value * ticketCount, // Valor total baseado na quantidade
-      };
+    const newTicket = {
+      id: Date.now(),
+      eventName: event.eventName,
+      dateTime: event.dateTime,
+      location: event.location,
+      quantity: ticketCount,
+      value: event.value * ticketCount,
+      imageUrl: event.imageUrl,
+    };
 
-      await addTicketToUser(ticket);
+    await addTicket(newTicket);
 
-      Alert.alert('Sucesso', `Você comprou ${ticketCount} ingresso(s) para ${event.eventName}.`);
-      navigation.goBack();
-    } catch (error) {
-      Alert.alert('Erro', 'Não foi possível comprar os ingressos. Tente novamente.');
-      console.error('Erro ao adicionar ticket:', error);
-    }
+    Alert.alert('Sucesso', 'Ingresso adicionado aos seus ingressos!');
+    navigation.goBack();
   };
 
-  // Formatar a data usando moment
   const formattedDate = moment(event.dateTime, 'DD/MM/YYYY HH:mm')
     .locale('pt-br')
     .format('dddd, D [de] MMMM [de] YYYY [às] HH:mm');
 
   return (
     <>
-      {/* Header */}
       <View style={styles.header}>
         <TouchableOpacity onPress={handleBackPress} style={styles.backButton}>
           <Ionicons name="arrow-back" size={24} color="#333" />
@@ -64,7 +61,6 @@ export default function Modal() {
         <Text style={styles.headerTitle}>Detalhes do Evento</Text>
       </View>
 
-      {/* Conteúdo */}
       <View style={styles.content}>
         <Image source={{ uri: event.imageUrl }} style={styles.image} />
         <Text style={styles.seller}>{event.seller}</Text>

@@ -5,4 +5,5 @@ export interface Ticket {
   location: string;
   quantity: number;
   value: number;
+  imageUrl: string;
 }

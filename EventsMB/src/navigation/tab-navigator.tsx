@@ -6,6 +6,7 @@ import { HeaderButton } from '../components/HeaderButton';
 import { TabBarIcon } from '../components/TabBarIcon';
 import HomeScreen from '../screens/Home/HomeScreen';
 import Two from '../screens/two';
+import TicketsScreen from '~/screens/Tickets/TicketsScreen';
 
 const Tab = createBottomTabNavigator();
 
@@ -19,7 +20,7 @@ export default function TabLayout({ navigation }: Props) {
         headerShown: false,
       }}>
       <Tab.Screen
-        name="One"
+        name="Home"
         component={HomeScreen}
         options={{
           title: 'Home',
@@ -27,11 +28,11 @@ export default function TabLayout({ navigation }: Props) {
         }}
       />
       <Tab.Screen
-        name="Two"
-        component={Two}
+        name="Tickets"
+        component={TicketsScreen}
         options={{
-          title: 'Tab Two',
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
+          title: 'Tickets',
+          tabBarIcon: ({ color }) => <TabBarIcon name="ticket" color={color} />,
         }}
       />
     </Tab.Navigator>

@@ -8,7 +8,7 @@ import EventCard from './EventCard';
 import { RootStackParamList } from '~/navigation';
 import { Event } from '~/types';
 
-type NavigationProp = StackNavigationProp<RootStackParamList, 'Modal'>;
+type NavigationProp = StackNavigationProp<RootStackParamList, 'EventModal'>;
 
 interface EventListProps {
   events: Event[];
@@ -33,7 +33,7 @@ const EventList: React.FC<EventListProps> = ({ events }) => {
             eventName={item.eventName}
             dateTime={item.dateTime}
             imageUrl={item.imageUrl}
-            onPress={() => navigation.navigate('Modal', { event: item })}
+            onPress={() => navigation.navigate('EventModal', { event: item })}
           />
         )}
         ListFooterComponent={

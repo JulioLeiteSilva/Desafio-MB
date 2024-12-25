@@ -2,13 +2,15 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 import TabNavigator from './tab-navigator';
-import Modal from '../screens/modal';
+import EventModal from '../screens/EventModal';
 
-import { Event } from '~/types';
+import TicketModal from '~/screens/TicketModal';
+import { Event, Ticket } from '~/types';
 
 export type RootStackParamList = {
   TabNavigator: undefined;
-  Modal: { event: Event };
+  EventModal: { event: Event };
+  TicketModal: { ticket: Ticket };
 };
 
 const Stack = createStackNavigator<RootStackParamList>();
@@ -23,8 +25,13 @@ export default function RootStack() {
           options={{ headerShown: false }}
         />
         <Stack.Screen
-          name="Modal"
-          component={Modal}
+          name="EventModal"
+          component={EventModal}
+          options={{ presentation: 'modal', headerShown: false }}
+        />
+        <Stack.Screen
+          name="TicketModal"
+          component={TicketModal}
           options={{ presentation: 'modal', headerShown: false }}
         />
       </Stack.Navigator>
