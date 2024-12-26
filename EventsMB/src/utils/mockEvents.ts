@@ -1,5 +1,3 @@
-// src/mockEvents.ts
-
 const mockEvents = [
   {
     id: 1,

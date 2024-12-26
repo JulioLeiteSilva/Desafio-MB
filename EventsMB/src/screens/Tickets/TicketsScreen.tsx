@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, FlatList, StyleSheet, Image, TouchableOpacity } from 'react-native';
 
-import { getUser } from '../../services/userService'; // Serviço para obter os dados do usuário
-import { Ticket } from '../../types'; // Importe o tipo Ticket
-
 import { ScreenContent } from '~/components/ScreenContent';
 import { useUser } from '~/context/UserContext';
 import RenderTicket from './components/TicketCard';

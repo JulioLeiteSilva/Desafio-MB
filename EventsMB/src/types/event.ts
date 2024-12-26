@@ -1,5 +1,3 @@
-// src/types/events.ts
-
 export interface Event {
   id: number;
   seller: string;

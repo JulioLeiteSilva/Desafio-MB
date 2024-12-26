@@ -6,7 +6,7 @@ interface EventCardProps {
   eventName: string;
   dateTime: string;
   imageUrl: string;
-  onPress: () => void; // Função ao clicar
+  onPress: () => void;
 }
 
 const EventCard: React.FC<EventCardProps> = ({
